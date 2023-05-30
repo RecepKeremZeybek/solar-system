@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    position: relative;
+    width: 40em;
+    height: 40em;
+    border: 2px solid red;
+    font-size: 10px;
+
+}
+.sun{
+    width: 10em;
+    height: 10em;
+    position: absolute;
+    background-color: yellow;
+    border-radius: 50%;
+    box-shadow: 0 0 3em white;
+    top: 15em;
+    left: 15em;
+}
